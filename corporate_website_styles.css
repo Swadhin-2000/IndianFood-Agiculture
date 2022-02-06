@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Calibri, sans-serif;
+    margin: 0;
+}
+/*--------------Main Header------------*/
+header{
+    background-image: url("images/background2.jpg");
+    color: white;
+    padding: 15px;
+}
+/*--------------Main NavBar------------*/
+nav{
+    background-color: black;
+    box-shadow: 0 0 10px black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px 25px;
+    display: inline-block;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: darkred;
+}
+/*--------------Aside Bar------------------*/
+aside{
+    background-image: url("images/background2.jpg");
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    height: 800px;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+aside a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+}
+aside a:hover{
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px white;
+}
+/*--------------------Main Content ------------*/
+section{
+    padding: 20px;
+    margin-left: 280px;
+}
+article h2{
+    color: darkred;
+    font-size: 35px;
+}
+article p{
+    font-size: 20px;
+    color: gray;
+}
+/*--------------------Main Footer ------------*/
+footer{
+    margin-left: 270px;
+    background-image: url("images/background2.jpg");
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: orange;
+    text-decoration: none;
+}
